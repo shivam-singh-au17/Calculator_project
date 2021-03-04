@@ -1,6 +1,10 @@
+body{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
 .container{
+    padding-top: 30px;
     text-align: center;
-    margin-top: 10px;
+    color: blue;
 }
 table{
     margin: auto;
@@ -14,17 +18,19 @@ input{
 button{
     border-radius: 24px;
     font-size: 36px;
-    background-color: rgb(139, 160, 160);
+    background-color: rgb(195, 235, 235);
     width: 102px;
     height: 55px;
 }
 .calculator{
     display: inline-block;
-    background-color: rgb(15, 192, 236);
+    background-color: rgb(103, 236, 15);
     padding: 25px;
     border-radius: 50px;
     border: 4px solid rgb(248, 75, 7);
 }
-h1{
-    font-size: 95px;
+.hedding{
+font-weight: bolder;
+    font-size: 90px;
+    padding-bottom: 20px;
 }
